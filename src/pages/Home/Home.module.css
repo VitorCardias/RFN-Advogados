@@ -1,0 +1,19 @@
+
+.button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-block: 4vw 10vw;
+}
+.socios{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.socios img{
+    width: 15vw;
+    margin: 1vw;
+}
+

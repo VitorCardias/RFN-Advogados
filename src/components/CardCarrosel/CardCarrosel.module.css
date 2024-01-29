@@ -1,0 +1,74 @@
+.container{
+    width: 95%;
+}
+.container:hover{
+    cursor: pointer;
+    filter: brightness(130%);
+    transition: 0.3s;
+}
+.card{
+    position: relative;
+}
+.card img{
+    width: 100%;
+    border: solid #e1ba82 1px;
+}
+.card p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    color: #e1ba82;
+    background-color: #010112;
+    font-size: 1.3vw;
+    font-weight: 600;
+
+    margin-bottom: 15%;
+}
+@media (max-width: 1200px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 1024px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 900px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 750px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 695px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 650px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 600px){
+    .container{
+        width: 80%;
+    }
+    .card p{
+        font-size: 1.6vw;
+    }
+}
+@media (max-width: 480px){
+    .container{
+        width: 80%;
+    }
+}

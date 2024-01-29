@@ -25,6 +25,14 @@
     margin: 2.5vw 1vw;
     cursor: pointer;
 }
+.icon_footer:hover{
+    filter: brightness(250%);
+    transition: 0.5s;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0),
+    0px 0px 0px 4px rgba(255, 255, 255, 0),
+    0px 0px 180px 0px #f3d588;
+}
 @media (max-width: 800px){
     .container p{
         font-size: 1.5vw;

@@ -1,6 +1,7 @@
-.container p{
+.text{
     color: #fff;
     width: 80%;
     margin: auto;
+    font-size: 1.2vw;
     text-align: justify;
 }

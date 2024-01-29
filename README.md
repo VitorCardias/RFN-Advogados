@@ -1,3 +1,5 @@
+<p>Atendemos os mais variados tipos de negócios, desde o começo a o fim. Entregamos o melhor atendimento para a sua necessidade.</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

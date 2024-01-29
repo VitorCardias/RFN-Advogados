@@ -9,7 +9,7 @@ function PrivacyPolicy(){
         <section className={styles.container}>
             <Header />
             <Banner banner={"politicas_de_privacidade"} page={"Políticas de Privacidade"} logo_banner={true}/>
-            <p>Na RENARD, FRIEDRICH & NEU ADVOGADOS ASSOCIADOS, privacidade e
+            <p className={styles.text}>Na RENARD, FRIEDRICH & NEU ADVOGADOS ASSOCIADOS, privacidade e
 segurança são prioridades e nos comprometemos com a transparência do tratamento de
 dados pessoais dos nossos usuários/clientes. Por isso, a presente Política de Privacidade
 estabelece como é feita a coleta, uso e transferência de informações de clientes ou outras

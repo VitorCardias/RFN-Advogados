@@ -1,0 +1,23 @@
+.container h1{
+    text-align: center;
+    color: #e1ba82;
+    font-weight: 630;
+    font-size: 2.5vw;
+    margin-block: 20vh 15vh;
+}
+@media (max-width: 800px) {
+    
+    .container h1{
+        margin-block: 10vh 5vh;
+    }
+}
+@media (max-width: 600px) {
+    .container h1{
+        font-size: 3vw;
+    }
+}
+@media (max-width: 300px) {
+    .container h1{
+        font-size: 4vw;
+    }
+}
