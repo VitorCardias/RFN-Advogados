@@ -1,8 +1,9 @@
 .container{
     background-color: black;
     color: #fff;
-    padding-block: 20vh 10vh;
+    padding-block: 5rem;
     user-select: none;
+    border-top: solid 2px #f3d588;
 
     display: flex;
     align-items: center;
@@ -51,3 +52,21 @@
     }
 }
 
+
+.footer_content{
+    display: flex;
+    width: 80%;
+}
+.footer_section{
+    margin-inline: 2rem;
+    min-width: 50px;
+}
+.footer_section p {
+    text-align: justify;
+}
+.footer_section h3{
+    text-align: justify;
+}
+.footer_section h4{
+    text-align: justify;
+}

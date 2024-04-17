@@ -24,6 +24,7 @@ function Header() {
                     <li><Link to="/areas-de-atuaçao">Áreas de Atuação</Link></li>
                     <li><Link to="/sobre-nós">Sobre nós</Link></li>
                     <li><Link to="/política-de-privacidade">Política de Privacidade</Link></li>
+                    <li><Link to="/teste">Teste</Link></li>
                 </ul>
                 <div className={clicked ? classNames(styles.mobile_menu, styles.active) : styles.mobile_menu } onClick={handleClick}>
                     <div className={ styles.line1 }></div>

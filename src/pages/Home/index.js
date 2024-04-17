@@ -7,6 +7,7 @@ import Carrossel from "../../components/Carrossel";
 import ContactButtons from "../../components/ContactButtons";
 
 import styles from "./Home.module.css"
+import FooterTeste from "../../components/Footer2";
 
 function Home() {
 
@@ -39,6 +40,8 @@ function Home() {
       </Container>
 
       <ButtonWhats />
+
+      <FooterTeste />
       <Footer/>
     </div>
   );

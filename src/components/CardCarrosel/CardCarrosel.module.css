@@ -12,6 +12,7 @@
 .card img{
     width: 100%;
     border: solid #e1ba82 1px;
+
 }
 .card p{
     display: flex;
