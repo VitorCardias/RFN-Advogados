@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css"
 
 function Footer(){
@@ -29,10 +30,10 @@ function Footer(){
                         </div>
                         <div>
                             <h3>Mapa do Site</h3>
-                            <a href="/">• Inicio</a><br/>
-                            <a href="/areas-de-atuaçao">• Areas de Atuação</a><br/>
-                            <a href="/sobre-nós">• Sobre nós</a><br/>
-                            <a href="/política-de-privacidade">• Politicas de Privacidade</a><br/>
+                            <Link to="/">• Inicio</Link><br/>
+                            <Link to="/areas-de-atuaçao">• Areas de Atuação</Link ><br/>
+                            <Link to="/sobre-nós">• Sobre nós</Link ><br/>
+                            <Link to="/política-de-privacidade">• Politicas de Privacidade</Link ><br/>
                         </div>
                         <div>
                             <h3>Redes Sociais</h3>

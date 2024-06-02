@@ -6,6 +6,7 @@ import Container from "../../components/Container";
 import styles from "./AboutUs.module.css"
 import CookieConsent from "../../components/CookieConsent";
 import { useCookies } from "react-cookie";
+import GoToTop from "../../components/GoToTop/GoToTop";
 
 function AboutUs(){
 
@@ -78,6 +79,7 @@ function AboutUs(){
             </Container>
             <ButtonWhats />
             <Footer />
+            <GoToTop />
             {!cookies.cookieConsent && <CookieConsent />}
         </section>
     );

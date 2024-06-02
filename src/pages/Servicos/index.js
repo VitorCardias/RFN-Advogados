@@ -6,6 +6,7 @@ import styles from "./Servicos.module.css"
 import CardSegmentos from "../../components/CardSegmentos";
 import CookieConsent from "../../components/CookieConsent";
 import { useCookies } from "react-cookie";
+import GoToTop from "../../components/GoToTop/GoToTop";
 
 function Servicos() {
 
@@ -33,6 +34,7 @@ function Servicos() {
                 </section>
             </Container>
             <Footer />
+            <GoToTop />
             {!cookies.cookieConsent && <CookieConsent />}
         </div>
     )

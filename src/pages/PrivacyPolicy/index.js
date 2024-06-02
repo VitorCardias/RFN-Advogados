@@ -2,6 +2,7 @@ import Banner from "../../components/Banner";
 import ButtonWhats from "../../components/Button_Whats";
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
+import GoToTop from "../../components/GoToTop/GoToTop";
 import Header from "../../components/Header";
 import styles from "./PrivacyPolicy.module.css";
 
@@ -354,6 +355,7 @@ function PrivacyPolicy(){
             </p>
             <ButtonWhats />
             <Footer />
+            <GoToTop />
         </section>
     );
 }
