@@ -29,7 +29,7 @@ function Footer(){
                         </div>
                         <div>
                             <h3>Mapa do Site</h3>
-                            <a href="#">• Inicio</a><br/>
+                            <a href="/">• Inicio</a><br/>
                             <a href="areas-de-atuaçao">• Areas de Atuação</a><br/>
                             <a href="sobre-nós">• Sobre nós</a><br/>
                             <a href="política-de-privacidade">• Politicas de Privacidade</a><br/>
