@@ -20,7 +20,7 @@ function Header() {
             
             <nav>
                 <ul className={clicked ? classNames(styles.nav_list, styles.active) : styles.nav_list}>
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/areas-de-atuaçao">Áreas de Atuação</Link></li>
                     <li><Link to="/sobre-nós">Sobre nós</Link></li>
                     <li><Link to="/política-de-privacidade">Política de Privacidade</Link></li>

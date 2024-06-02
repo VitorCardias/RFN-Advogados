@@ -75,10 +75,10 @@
     height: 100%;
 }
 .mobile_menu div{
-    width: 2.5vw;
-    height: 0.3vw;
+    width: 1.5rem;
+    height: 0.1rem;
     background-color: #fff;
-    margin: 0.5vw;
+    margin: 0.3rem;
     transition: 0.3s;
 }
 @media (max-width: 1200px) {
@@ -157,13 +157,13 @@
 
     /* HAMBURGUER BUTTON */
     .mobile_menu.active .line1{
-        transform: rotate(-45deg) translate(0vw, 0.8vw);
+        transform: rotate(-45deg) translate(0vw, 0.4rem);
     }
     .mobile_menu.active .line2{
         opacity: 0;
     }
     .mobile_menu.active .line3{
-        transform: rotate(45deg) translate(-0.3vw, -1.15vw);
+        transform: rotate(45deg) translate(-0.15rem, -0.55rem);
     }
 }
 @media (max-width: 400px){

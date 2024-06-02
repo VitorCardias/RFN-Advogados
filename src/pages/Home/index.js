@@ -25,13 +25,25 @@ function Home() {
           <Carrossel />
         </div>
         
-        <div className={styles.socios_area}>
-          <h1>Socios Fundadores</h1>
-          <div className={styles.socios}>
-            <img src="/images/equipe-rfn/caroline.svg" alt="Caroline" />
-            <img src="/images/equipe-rfn/matheus.svg" alt="Matheus" />
-            <img src="/images/equipe-rfn/willian.svg" alt="Willian" />
-          </div>
+        <div>
+          <h1>Equipe RFN</h1>
+          <div className={styles.socios_area}>
+            <h1>Sócios-Fundadores</h1>
+            <div className={styles.socios}>
+              <div className={styles.nome_socios}>
+                <img src="/images/equipe-rfn/caroline.svg" alt="Caroline" />
+                <h2>Caroline Alana Friedrich</h2>
+              </div>
+              <div className={styles.nome_socios}>
+                <img src="/images/equipe-rfn/matheus.svg" alt="Matheus" />
+                <h2>Mateus Renard Machado</h2>
+              </div>
+              <div className={styles.nome_socios}>
+                <img src="/images/equipe-rfn/willian.svg" alt="Willian" />
+                <h2>Wilian Mauri Friedrich Neu</h2>
+              </div>
+            </div>
+          </div>  
         </div>
       </Container>
 

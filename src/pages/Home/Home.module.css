@@ -5,6 +5,18 @@
     justify-content: center;
     margin-block: 4vw 10vw;
 }
+.socios_area{
+    width: 80%;
+    margin: auto;
+}
+.socios_area h1{
+    width: 100%;
+    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1rem;
+}
 .socios{
     display: flex;
     width: 100%;
@@ -12,6 +24,37 @@
     align-items: center;
 }
 .socios img{
-    width: 15vw;
-    margin: 1vw;
+    width: 15rem;
+}
+.nome_socios{
+    margin-inline: 1rem;
+    flex-wrap: wrap;
+    width: 15rem;
+}
+.nome_socios h2{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #11162c;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding-block: 0.3rem;
+}
+@media (max-width: 800px) {
+    .socios{
+        flex-direction: column;
+    }
+    .socios img{
+        width: 10rem;
+    }
+    .socios_area h1{
+        font-size: 1.5rem;
+    }
+    .nome_socios{
+        width: 10rem;
+    }
+    .nome_socios h2{
+        font-size: 0.8rem;
+    }
 }
