@@ -4,7 +4,6 @@
     background-color: #0a102f;
     margin: 1rem;
     border-radius: 1vw;
-    cursor: pointer;
 }
 .container:hover{
     transform: translateY(-10px);
