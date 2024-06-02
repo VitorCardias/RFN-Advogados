@@ -1,0 +1,53 @@
+.historia p{
+    width: 80%;
+    margin: auto;
+    color: white;
+    text-align: justify;
+    font-size: 1.2rem
+}
+.historia h1{
+    margin-block: 4rem 5rem;
+}
+.missao_visao_valores{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.missao_visao_valores h1{
+    margin-block: 4rem 5rem;
+}
+.missao_visao{
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 70%;
+}
+.valores{
+    width: 40%;
+}
+.valores li{
+    font-size: 1.2rem;
+    list-style: none;
+    text-align: center;
+    margin: 2rem;
+    font-weight: 600;                       
+}
+@media (max-width: 800px) {
+    .missao_visao_valores{
+        display: block;
+    }
+    .missao_visao{
+        width: 100%;
+    }
+    .valores{
+        width: 100%;
+    }
+}
+@media (max-width:550px) {
+    .historia p{
+        font-size: 0.95rem
+    }
+    .missao_visao{
+        font-size: 0.95rem;
+    }
+}

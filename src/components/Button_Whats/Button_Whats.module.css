@@ -6,31 +6,16 @@
     user-select: none;
 }
 .container img{
-    width: 4.5vw;
+    width: 4.5rem;
     cursor: pointer;
 }
 .container img:hover{
     transform: scale(1.1);
-    filter: brightness(150%);
-    transition: 0.3s;
+    filter: brightness(130%);
+    transition: 0.4s;
 }
 .container img:active{
     transform: scale(0.9);
     transition: 0.3s;
     filter: brightness(120%);
-}
-
-@media (max-width: 800px) {
-    .container img{
-        width: 7vw;
-    }
-}
-@media (max-width: 450px) {
-    .container{
-        bottom: 6vw;
-        right: 5vw;
-    }
-    .container img{
-        width: 10vw;
-    }
 }

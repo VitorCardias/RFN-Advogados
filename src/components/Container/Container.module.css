@@ -2,22 +2,19 @@
     text-align: center;
     color: #e1ba82;
     font-weight: 630;
-    font-size: 2.5vw;
-    margin-block: 20vh 15vh;
+    font-size: 2.3rem;
+    margin-block: 15vh 10vh;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     
     .container h1{
         margin-block: 10vh 5vh;
+        font-size: 1.5rem;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
+    
     .container h1{
-        font-size: 3vw;
-    }
-}
-@media (max-width: 300px) {
-    .container h1{
-        font-size: 4vw;
+        font-size: 1.2rem;
     }
 }

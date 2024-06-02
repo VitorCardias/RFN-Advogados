@@ -4,15 +4,17 @@ import Footer from "../../components/Footer";
 import ButtonWhats from "../../components/Button_Whats";
 import Container from "../../components/Container";
 import Carrossel from "../../components/Carrossel";
-import ContactButtons from "../../components/ContactButtons";
+import CookieConsent from "../../components/CookieConsent";
 
 import styles from "./Home.module.css"
-import FooterTeste from "../../components/Footer2";
+import { useCookies } from "react-cookie";
 
 function Home() {
 
+  const [cookies] = useCookies(["cookieConsent"]);
 
   return (
+
     <div>
       <Header/>
       <Banner banner={"home"} page={"Home"} logo_banner={false}/>
@@ -31,18 +33,12 @@ function Home() {
             <img src="/images/equipe-rfn/willian.svg" alt="Willian" />
           </div>
         </div>
-
-        <div className={styles.contato_area}>
-            <h1>Fale conosco atraves dos seguintes canais:</h1>
-            <ContactButtons />
-        </div>
-
       </Container>
 
       <ButtonWhats />
 
-      <FooterTeste />
       <Footer/>
+      {!cookies.cookieConsent && <CookieConsent />}
     </div>
   );
 }

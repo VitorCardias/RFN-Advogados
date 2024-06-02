@@ -1,0 +1,64 @@
+.background{
+    background-color: #0000007b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+.container{
+    color: white;
+    background-color: #02071b;
+    font-size: 1.3rem;
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.container p{
+    width: 75%;
+    margin: auto;
+}
+.container button{
+    width: 10%;
+    margin: auto;
+    height: 3rem;
+    background-color: #e7be57;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: #fbd471;
+    transition: 0.3s;
+    text-align: justify;
+}
+@media (max-width: 900px) {
+    .container p{
+        font-size: 1rem;
+    }
+    .container button{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        height: 12rem;
+    }
+    .container button{
+        width: 15%;
+    }
+}
+@media (max-width: 400px) {
+    .container p{
+        font-size: 0.9rem;
+    }
+    .container button{
+        font-size: 0.8rem;
+    }
+}

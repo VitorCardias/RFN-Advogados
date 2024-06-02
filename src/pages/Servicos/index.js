@@ -2,10 +2,14 @@ import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
-import styles from "./Teste.module.css"
+import styles from "./Servicos.module.css"
 import CardSegmentos from "../../components/CardSegmentos";
+import CookieConsent from "../../components/CookieConsent";
+import { useCookies } from "react-cookie";
 
-function Teste() {
+function Servicos() {
+
+    const [cookies] = useCookies(["cookieConsent"]);
     return (
         <div>
             <Header />
@@ -29,8 +33,9 @@ function Teste() {
                 </section>
             </Container>
             <Footer />
+            {!cookies.cookieConsent && <CookieConsent />}
         </div>
     )
 }
 
-export default Teste;
+export default Servicos;

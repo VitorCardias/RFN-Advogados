@@ -48,7 +48,7 @@
     margin: 0;
     text-decoration: none;
     padding-inline: 0.8vw;
-    font-size: 1.1vw;
+    font-size: 1.2rem;
     padding: 1.8vw;
     height: 100%;
 
@@ -81,7 +81,11 @@
     margin: 0.5vw;
     transition: 0.3s;
 }
-
+@media (max-width: 1200px) {
+    .header a{
+        font-size: 0.9rem;
+    }
+}
 @media (max-width: 800px) {
     body {
         overflow-x: hidden;
@@ -97,7 +101,7 @@
     }
     .logo_mobile{
         display: block;
-        width: 30vw;
+        width: 15rem;
     }
 
     /* MOBILE NAVBAR */
@@ -128,7 +132,7 @@
         opacity: 0;
     }
     .nav_list a{
-        font-size: 2vw;
+        font-size: 1rem;
         margin: 0;
         padding: 0;
         width: 100%;
@@ -160,6 +164,14 @@
     }
     .mobile_menu.active .line3{
         transform: rotate(45deg) translate(-0.3vw, -1.15vw);
+    }
+}
+@media (max-width: 400px){
+    .logo_mobile{
+        width: 10rem;
+    }
+    .nav_list a{
+        font-size: 0.8rem;
     }
 }
 @keyframes navLinkFade {

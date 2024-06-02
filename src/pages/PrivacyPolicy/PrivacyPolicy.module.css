@@ -2,6 +2,12 @@
     color: #fff;
     width: 80%;
     margin: auto;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     text-align: justify;
+}
+.titulo{
+    color: #e1ba82;
+    width: 80%;
+    margin: auto;
+    margin-block: 2rem;
 }

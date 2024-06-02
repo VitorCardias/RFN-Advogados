@@ -13,26 +13,38 @@
     color: #e1ba82; /* #cfa974 #e1ba82 #fff */
     z-index: 2;
     position: absolute;
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: 600;
     width: 100%;
     text-align: center;
 }
 .start_video{  
+    overflow-x: hidden;
     width: 100%;
+    height: 100%;
     z-index: 1;
     top: 3.5vh;
     filter: brightness(0.4);
-    margin-top: 3.8vh;
+    margin-top: 3.8vh;;
 }
 .start_logo{
     z-index: 2;
     position: absolute;
     top: 40%;
-    width: 50vw;
+    width: 40rem;
 }
 .title{
     display: none;
+}
+@media (max-width: 1000px){
+    .container.disappear h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 800px){
+    .start_logo{
+        width: 25rem;
+    }
 }
 @media (max-width: 700px){
     .container{
@@ -42,6 +54,19 @@
 @media (max-width: 600px){
     .container{
         margin-top: 3.8vh;
+    }
+    .container.disappear h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px){
+    .start_logo{
+        width: 18rem;
+    }
+}
+@media (max-width: 400px){
+    .container.disappear h1{
+        font-size: 1.2rem;
     }
 }
 @keyframes fadeIn {
