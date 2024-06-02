@@ -4,7 +4,7 @@ import { useCookies } from 'react-cookie';
 
 function CookieConsent(){
 
-    const[cookies, setCookie] = useCookies(["cookieConsent"]);
+    const[,setCookie] = useCookies(["cookieConsent"]);
     const giveCookieConsent = () => {
 
         setCookie("cookieConsent", true, {path: "/"});
