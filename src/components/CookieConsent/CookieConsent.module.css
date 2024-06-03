@@ -36,7 +36,6 @@
 .container button:hover{
     background-color: #fbd471;
     transition: 0.3s;
-    text-align: justify;
 }
 @media (max-width: 900px) {
     .container p{
