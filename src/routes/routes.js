@@ -9,9 +9,9 @@ function AppRoutes(){
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} ></Route>
-                <Route path="/areas-de-atuaçao" element={<Servicos />} ></Route>
-                <Route path="/sobre-nós" element={<AboutUs />} ></Route>
-                <Route path="/política-de-privacidade" element={<PrivacyPolicy /> } ></Route>
+                <Route path="/areas-de-atuacao" element={<Servicos />} ></Route>
+                <Route path="/sobre-nos" element={<AboutUs />} ></Route>
+                <Route path="/politica-de-privacidade" element={<PrivacyPolicy /> } ></Route>
             </Routes>
         </BrowserRouter>
     );

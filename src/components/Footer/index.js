@@ -31,9 +31,9 @@ function Footer(){
                         <div>
                             <h3>Mapa do Site</h3>
                             <Link to="/">• Inicio</Link><br/>
-                            <Link to="/areas-de-atuaçao">• Areas de Atuação</Link ><br/>
-                            <Link to="/sobre-nós">• Sobre nós</Link ><br/>
-                            <Link to="/política-de-privacidade">• Politicas de Privacidade</Link ><br/>
+                            <Link to="/areas-de-atuacao">• Areas de Atuação</Link ><br/>
+                            <Link to="/sobre-nos">• Sobre nós</Link ><br/>
+                            <Link to="/politica-de-privacidade">• Politicas de Privacidade</Link ><br/>
                         </div>
                         <div>
                             <h3>Redes Sociais</h3>

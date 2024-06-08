@@ -7,6 +7,7 @@ import CardSegmentos from "../../components/CardSegmentos";
 import CookieConsent from "../../components/CookieConsent";
 import { useCookies } from "react-cookie";
 import GoToTop from "../../components/GoToTop/GoToTop";
+import ButtonWhats from "../../components/Button_Whats";
 
 function Servicos() {
 
@@ -34,6 +35,7 @@ function Servicos() {
                 </section>
             </Container>
             <Footer />
+            <ButtonWhats />
             <GoToTop />
             {!cookies.cookieConsent && <CookieConsent />}
         </div>
