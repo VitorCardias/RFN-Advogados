@@ -15,7 +15,7 @@ function Banner({ banner, logo_banner , page }){
                 muted={true}
                 autoPlay={true}
             />
-            <img className={styles.start_logo} src="/images/logos/RFN LOGO FINAL.png" alt="Logo" />
+            <img className={styles.start_logo} src="/images/logos/RFN LOGO FINAL.svg" alt="Logo" />
             <h1 className={styles.title} >{ page }</h1>
         </section>
     );

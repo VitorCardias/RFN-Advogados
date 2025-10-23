@@ -39,7 +39,7 @@ function Home() {
               <h1>Sócios-Fundadores</h1>
               <div className={styles.socios}>
                 <div className={styles.nome_socios}>
-                  <img src="/images/equipe-rfn/caroline.svg" alt="Caroline" />
+                  <img src="/images/equipe-rfn/carol.svg" alt="Caroline" />
                   <h2>Caroline Alana Friedrich</h2>
                 </div>
                 <div className={styles.nome_socios}>
@@ -49,6 +49,10 @@ function Home() {
                 <div className={styles.nome_socios}>
                   <img src="/images/equipe-rfn/willian.svg" alt="Willian" />
                   <h2>Wilian Mauri Friedrich Neu</h2>
+                </div>
+                <div className={styles.nome_socios}>
+                  <img src="/images/equipe-rfn/aline.svg" alt="Aline" />
+                  <h2>Aline Rospa</h2>
                 </div>
               </div>
             </div>  

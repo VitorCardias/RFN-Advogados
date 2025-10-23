@@ -15,8 +15,8 @@ function Header() {
         <header className={styles.header}>
 
             <p>Escrevendo algo so pra ver</p>
-            <img className={styles.logo_web} src="/images/logos/RFN_LOGO_FINAL_05.png" alt="Logo" />
-            <img className={styles.logo_mobile} src="/images/logos/RFN_LOGO_FINAL_02.png" alt="Logo_mobile" />
+            <img className={styles.logo_web} src="/images/logos/RFN_LOGO_FINAL_05.svg" alt="Logo" />
+            <img className={styles.logo_mobile} src="/images/logos/RFN_LOGO_FINAL_02.svg" alt="Logo_mobile" />
             
             <nav>
                 <ul className={clicked ? classNames(styles.nav_list, styles.active) : styles.nav_list}>

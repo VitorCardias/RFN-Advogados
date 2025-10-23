@@ -12,6 +12,12 @@ const images = [
     "direito-empresarial.svg",
     "LGPD.svg",
     "negociacoes.svg",
+    "direito-bancario.svg",
+    "direito-medico.svg",
+    "direito-consumidor.svg",
+    "direito-agronegocio.svg",
+
+    
 ];
 function CardCarrosel({ index, title }){
     return(

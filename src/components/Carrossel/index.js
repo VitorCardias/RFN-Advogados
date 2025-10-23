@@ -217,6 +217,10 @@ function Carrossel(){
         { index: 8, title: "Direito Empresarial" },
         { index: 9, title: "LGPD" },
         { index: 10, title: "Negociações e Contratos" },
+        { index: 11, title: "Direito Bancário" },
+        { index: 12, title: "Direito Médico" },
+        { index: 13, title: "Direito do Consumidor" },
+        { index: 14, title: "Direito Agronegócio" },
     ];
 
     return(

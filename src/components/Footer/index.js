@@ -6,7 +6,7 @@ function Footer(){
         <section className={ styles.container }>
             <div>
                 <div className={ styles.image }>
-                    <img className={ styles.footer_logo } src="/images/logos/RFN LOGO FINAL.png" alt="Logo" />
+                    <img className={ styles.footer_logo } src="/images/logos/RFN LOGO FINAL.svg" alt="Logo" />
                 </div>
 
                 <div className={styles.footer_info}>
@@ -21,11 +21,7 @@ function Footer(){
                         <div>
                             <h3>Horários de Atendimento</h3>
                             <p>
-                                Segunda-feira: 8:00 - 12:00 às 13:00 - 20:30 <br/>
-                                Terça-feira: 8:00 - 12:00 às 13:00 - 20:30 <br/>
-                                Quarta-feira: 8:00 - 12:00 às 13:00 - 20:30 <br/>
-                                Quinta-feira: 8:00 - 12:00 às 13:00 - 20:30 <br/>
-                                Sexta-feira: 8:00 - 12:00 às 13:00 - 20:30 <br/>
+                                Segunda a Sexta das 8:00 às 20:30
                             </p>
                         </div>
                         <div>
